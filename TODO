@@ -1,0 +1,9 @@
+my_fnmatch    || TEST
+              ||
+'ad' 'ad'     ||  OK
+'?d' 'ad'     ||  OK
+'/?d' '?d'    ||  OK
+'*d' 'acd'    ||  OK
+'[ab]e' 'be'  ||  OK
+'[a-d]' 'c'   ||  50%
+'[!a-d]' 'z'  ||  0%

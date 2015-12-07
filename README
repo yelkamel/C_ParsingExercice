@@ -1,0 +1,3 @@
+The my_fnmatch() function checks whether the string argument matches the pattern argument,
+which is a shell wildcard pattern.
+My_fnmatch() does not handle intervals in brackets or exclamation point.
